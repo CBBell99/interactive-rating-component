@@ -31,6 +31,21 @@ border-radius: 10px;
 margin: 20px
 }
 
+.star-image{
+  height: 45px;
+  width: 45px;
+  background-color: var(--medium-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.rating {
+  display: flex;
+
+}
+
 .rating>li{
   list-style: none;
 }

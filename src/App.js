@@ -4,7 +4,9 @@ function App() {
   return (
     <>
       <div className="container">
-        <img src={star} alt="" />
+        <div className="star-image">
+          <img src={star} alt="" />
+        </div>
         <h2>How did we do?</h2>
         <p>
           Please let us know how we did with your support request. All feedback
