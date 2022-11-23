@@ -10,7 +10,7 @@ function App() {
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
         </p>
-        <ul>
+        <ul className="rating">
           <li>
             <button>1</button>
           </li>

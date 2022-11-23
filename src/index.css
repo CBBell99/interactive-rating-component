@@ -19,19 +19,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 0.1px);
+  height: 100vh;
   background-color: var(--very-dark-blue);
 }
 
-.main {
-
-}
-
-.container {
+ .container {
 background-color: var(--dark-blue);  
 color: var(--white);
 padding: 1.25rem;
 border-radius: 10px;
+margin: 20px
+}
+
+.rating>li{
+  list-style: none;
 }
 
 .btn-rating{
