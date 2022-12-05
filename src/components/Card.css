@@ -1,0 +1,21 @@
+.card {
+  background-color: var(--dark-blue);
+  padding: 1.5rem;
+  border-radius: 0.635rem;
+}
+
+.card .star{
+  background-color: var(--medium-grey);
+  padding: 0.5rem;
+  border-radius: 50px;
+}
+
+.card h1{
+  color: #fff;
+  margin: 2rem 0 1rem;
+}
+
+.card p{
+  color: var(--white);
+  line-height: 1.8;
+}

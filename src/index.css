@@ -32,30 +32,38 @@ body{
   min-height: 100vh;
 }
 
-.card {
-  background-color: var(--dark-blue);
-  padding: 1.5rem;
-  border-radius: 0.635rem;
+.rating-container{
+  display: flex;
+  justify-content: space-between;
 }
 
-.card .star{
-  background-color: var(--medium-grey);
-  padding: 0.5rem;
-  border-radius: 50px;
-}
-
-.card h1{
-  color: #fff;
-  margin: 2rem 0 1rem;
-}
-
-.card p{
+.rating-container > li > button {
+  margin-top: 1rem;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 0 solid #fff;
+  background: var(--medium-grey);
   color: var(--white);
-  line-height: 1.8;
 }
 
-card
+.rating-container > li > button:hover{
+  background: var(--orange);
+}
+
+.rating-container > li > button:focus{
+  background: var(--light-grey);
+}
+
 
 .btn-submit{
+  margin-top: 1rem;
   background-color: var(--orange);
+  width: 100%;
+  padding: .5rem;
+  border-radius:1.25rem
+}
+.btn-submit:hover{
+  color: var(--orange);
+  background: var(--white);
 }

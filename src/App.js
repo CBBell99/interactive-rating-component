@@ -1,10 +1,12 @@
 import star from "./images/icon-star.svg";
 import thanks from "./images/illustration-thank-you.svg";
 
+import Card from "./components/Card";
+
 function App() {
   return (
     <>
-      <div className="card">
+      <Card>
         <img className="star" src={star} alt="star" />
         <h1>How did we do?</h1>
         <p>
@@ -29,8 +31,8 @@ function App() {
           </li>
         </ul>
         <button className="btn-submit">SUBMIT</button>
-      </div>
-      <div className="card">
+      </Card>
+      {/* <Card>
         <div className="thank-you">
           <img src={thanks} alt="POS machine" />
         </div>
@@ -40,7 +42,7 @@ function App() {
           We appreciate you taking your time to give a rating. If you ever need
           more support, don't hesitate to get in touch!
         </p>
-      </div>
+      </Card> */}
     </>
   );
 }
