@@ -5,13 +5,13 @@ function App() {
   return (
     <>
       <div className="card">
-        <img src={star} alt="star" />
+        <img className="star" src={star} alt="star" />
         <h1>How did we do?</h1>
         <p>
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
         </p>
-        <ul>
+        <ul className="rating-container">
           <li>
             <button className="btn">1</button>
           </li>

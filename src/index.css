@@ -38,7 +38,7 @@ body{
   border-radius: 0.635rem;
 }
 
-.card img{
+.card .star{
   background-color: var(--medium-grey);
   padding: 0.5rem;
   border-radius: 50px;
