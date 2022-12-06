@@ -1,0 +1,27 @@
+.rating-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 0 solid #fff;
+  background: var(--medium-grey);
+  color: var(--white);
+}
+
+.rating:hover{
+  background: var(--orange);
+  cursor: pointer;
+}
+
+.rating:active{
+  background: var(--light-grey);
+}

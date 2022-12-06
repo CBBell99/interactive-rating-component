@@ -2,6 +2,7 @@ import star from "./images/icon-star.svg";
 import thanks from "./images/illustration-thank-you.svg";
 
 import Card from "./components/Card";
+import RatingContainer from "./components/RatingContainer";
 
 function App() {
   return (
@@ -13,23 +14,7 @@ function App() {
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
         </p>
-        <ul className="rating-container">
-          <li>
-            <button className="btn">1</button>
-          </li>
-          <li>
-            <button className="btn">2</button>
-          </li>
-          <li>
-            <button className="btn">3</button>
-          </li>
-          <li>
-            <button className="btn">4</button>
-          </li>
-          <li>
-            <button className="btn">5</button>
-          </li>
-        </ul>
+        <RatingContainer />
         <button className="btn-submit">SUBMIT</button>
       </Card>
       {/* <Card>
