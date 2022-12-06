@@ -1,7 +1,9 @@
 .card {
   background-color: var(--dark-blue);
   padding: 1.5rem;
-  border-radius: 0.635rem;
+  border-radius: 0.625rem;
+  
+
 }
 
 .card .star{
@@ -12,10 +14,11 @@
 
 .card h1{
   color: #fff;
-  margin: 2rem 0 1rem;
+  margin: 1rem 0 1rem;
 }
 
 .card p{
-  color: var(--white);
+  color: var(--medium-grey);
   line-height: 1.8;
+  font-size: 15px;
 }
