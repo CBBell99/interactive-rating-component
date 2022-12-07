@@ -1,14 +1,20 @@
 import "./RatingContainer.css";
 
-function RatingContainer() {
+import { useState } from "react";
+import Button from "./Button";
+
+function RatingContainer(props) {
+  console.log("rating", props);
+  const [rating, setRating] = useState();
+
   return (
     <>
       <div className="rating-container">
-        <div className="rating">1</div>
-        <div className="rating">2</div>
-        <div className="rating">3</div>
-        <div className="rating">4</div>
-        <div className="rating">5</div>
+        <Button number={1} />
+        <Button number={2} />
+        <Button number={3} />
+        <Button number={4} />
+        <Button number={5} />
       </div>
     </>
   );

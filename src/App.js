@@ -4,9 +4,11 @@ import { useState } from "react";
 
 import Card from "./components/Card";
 import RatingContainer from "./components/RatingContainer";
+import Button from "./components/Button";
 
-function App() {
+function App(props) {
   const [ratingSubmitted, setRatingSubmitted] = useState(false);
+  const [rating, setRating] = useState("");
 
   const clickHandler = () => {
     setRatingSubmitted(true);
