@@ -1,0 +1,8 @@
+.rating:hover{
+  background: var(--orange);
+  cursor: pointer;
+}
+
+.rating:focus{
+  background: var(--light-grey);
+}

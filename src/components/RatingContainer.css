@@ -23,6 +23,6 @@
   cursor: pointer;
 }
 
-.rating:active{
+.rating:focus{
   background: var(--medium-grey);
 }
