@@ -3,6 +3,6 @@
   cursor: pointer;
 }
 
-.rating:focus{
+.rating .active{
   background: var(--light-grey);
 }

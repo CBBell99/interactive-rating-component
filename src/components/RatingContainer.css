@@ -23,6 +23,4 @@
   cursor: pointer;
 }
 
-.rating:focus{
-  background: var(--medium-grey);
-}
+

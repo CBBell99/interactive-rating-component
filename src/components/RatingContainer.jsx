@@ -4,13 +4,18 @@ import { useState } from "react";
 import Button from "./Button";
 
 function RatingContainer(props) {
-  console.log("rating", props);
-  const [rating, setRating] = useState();
+  const [rating, setRating] = useState({
+    oneStar: false,
+    twoStar: false,
+    threeStar: false,
+    fourStar: false,
+    fiveStar: false,
+  });
 
   return (
     <>
       <div className="rating-container">
-        <Button number={1} />
+        <Button className="" number={1} />
         <Button number={2} />
         <Button number={3} />
         <Button number={4} />
