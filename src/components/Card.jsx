@@ -1,7 +1,8 @@
-import "./Card.css";
+import React from 'react';
+import './Card.css';
 
-function Card({ children }) {
-  return <div className="card">{children}</div>;
+function Card() {
+  return <div className="card-container"></div>;
 }
 
 export default Card;

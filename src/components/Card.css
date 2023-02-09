@@ -1,24 +1,5 @@
-.card {
-  background-color: var(--dark-blue);
-  padding: 1.5rem;
-  border-radius: 0.625rem;
-  
-
-}
-
-.card .star{
-  background-color: var(--medium-grey);
-  padding: 0.75rem;
-  border-radius: 50px;
-}
-
-.card h1{
-  color: #fff;
-  margin: 1rem 0 1rem;
-}
-
-.card p{
-  color: var(--medium-grey);
-  line-height: 1.8;
-  font-size: 15px;
-}
+.card-container {
+  width: 375px;
+  height: 400px;
+  background: linear-gradient(45deg, hsl(216, 12%, 8%), hsl(213, 19%, 18%))
+} 

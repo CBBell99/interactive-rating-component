@@ -1,8 +1,0 @@
-.rating:hover{
-  background: var(--orange);
-  cursor: pointer;
-}
-
-.rating .active{
-  background: var(--light-grey);
-}
