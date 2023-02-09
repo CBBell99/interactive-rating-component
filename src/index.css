@@ -24,6 +24,12 @@
   -moz-osx-font-smoothing: grayscale;
   }
 
+p {
+  font-size: 15px;
+  color: var(--light-grey);
+  line-height: 1.5;
+}
+
 ul{
   list-style:none;
 }

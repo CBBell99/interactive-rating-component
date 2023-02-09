@@ -1,0 +1,54 @@
+
+.container-round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px; 
+  height: 35px; 
+  border-radius: 25px;
+   background: var(--dark-blue);
+}
+
+.container-round > button{
+  border: 0;
+}
+
+h2.title{
+  color: var(--white);
+  margin-top: 1.5rem;
+}
+
+.text {}
+
+.rating-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 1rem 0;}
+
+
+.rating-button {
+  background: var(--dark-blue);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 25px;
+}
+
+.submit-btn {
+  background: var(--orange);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 25px;
+  border: 0;
+  margin: 2rem 0;
+  text-transform: uppercase;
+}

@@ -1,5 +1,7 @@
 .card-container {
-  width: 375px;
-  height: 400px;
-  background: linear-gradient(45deg, hsl(216, 12%, 8%), hsl(213, 19%, 18%))
-} 
+  width: 340px;
+  height: 360px;
+  padding: 1.33rem;
+  background: var(--very-dark-blue);
+  border-radius: 15px;
+}
