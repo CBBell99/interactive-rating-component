@@ -54,6 +54,13 @@ h2.title{
 .rating-button:hover {
   background: var(--orange);
   color: var(--white);
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: var(--white);
+  color:var(--orange);
+  cursor: pointer;
 }
 
 .clicked {
