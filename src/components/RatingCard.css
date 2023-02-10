@@ -3,8 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35px; 
-  height: 35px; 
+  width: 40px; 
+  height: 40px; 
   border-radius: 25px;
    background: var(--dark-blue);
 }
@@ -34,8 +34,8 @@ h2.title{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   border-radius: 25px;
 }
 
@@ -51,4 +51,14 @@ h2.title{
   border: 0;
   margin: 2rem 0;
   text-transform: uppercase;
+}
+
+.rating-button:hover {
+  background: var(--orange);
+  color: var(--white);
+}
+
+.clicked {
+  background: var(--medium-grey);
+  color: var(--white);
 }

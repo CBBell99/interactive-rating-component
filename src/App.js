@@ -1,16 +1,13 @@
-import star from "./images/icon-star.svg";
-import thanks from "./images/illustration-thank-you.svg";
-import { useState } from "react";
-
-import Rating from './components/Rating';
-// import RatingContainer from "./components/RatingContainer";
 import './App.css';
+import RatingCard from './components/RatingCard';
+import ThankYou from './components/ThankYou';
+import { useState } from 'react';
 
 function App() {
+  const [submitted, setSubmitted] = useState(false);
+
   return (
-    <>
-      <Rating />
-    </>
+    <>{submitted ? <ThankYou /> : <RatingCard setSubmitted={setSubmitted} />}</>
   );
 }
 
