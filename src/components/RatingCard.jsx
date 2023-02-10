@@ -4,11 +4,12 @@ import './RatingCard.css';
 import { useState } from 'react';
 import RatingContainer from './RatingContainer';
 
-function Rating({ setSubmitted }) {
+function Rating({ updateRating, setSubmitted }) {
   const [rating, setRating] = useState(null);
 
   const handleRating = (num) => {
     setRating(num);
+    updateRating(num);
   };
 
   const submitHandler = () => {

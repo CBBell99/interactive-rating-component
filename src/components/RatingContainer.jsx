@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-
 function RatingContainer({ handleRating, rating }) {
   const ratings = [1, 2, 3, 4, 5];
 
